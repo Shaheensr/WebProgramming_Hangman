@@ -4,7 +4,7 @@
         $pattern = "/" . $_POST['Username'] . ", " . $_POST['Password'] . "/";
 
         if(preg_match($pattern, $current) == 1){
-            header("location:index.php");
+            header("location:hangman.php");
         } else{
             echo "Invalid Username or Password <br>
                   <a href='login.php'> Try again. </a>";

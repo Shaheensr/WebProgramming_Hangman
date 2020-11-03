@@ -11,11 +11,6 @@
 </head>
 <body>
     <h1>Hangman</h1>
-    <div>
-        <img src="hangman_0.gif">
-        
-    </div>
-    <input type="text">
-    <button type="submit">Submit</button>
+    <a href="login.php"> Login here. </a>
 </body>
 </html>
